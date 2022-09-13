@@ -85,6 +85,15 @@ ipconfig
 ```
 which will give you your local IP-Address (lets assume here that the devices IP is 192.168.0.33). Test the connection to your second device via typing "192.168.0.33:80" into your browser, letting you directly access the webpage you created on your second device. If you see nothing, make sure both devices are connected to the same router, your WAMP is running and no firewall is blocking the access. Otherwise, make sure that in the WAMP httpd_config file, you set the restrictions to LOCAL (google for further instructions). If it works, try calling DeadlyBooring on the same IP on Port 80. Refresh your page and you will see that you will get no response from the server (note that the website may be cashed, so you will sill see the page). 
 
+## Usage
+In order to run  `DeadlyBooringDOS.py`
+
+
+Write the command as:
+```
+python3 DeadlyBooringDOS.py <target_ip>
+```
+
 License
 ----
 
