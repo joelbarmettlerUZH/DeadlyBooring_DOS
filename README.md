@@ -3,6 +3,11 @@
 Denial of Service attacks do not always have to flood the server with requests to make him shut down. Deadly Booring DOS takes a much more elegant appraoch: Instead sending as much data as possible, we send as little data as we can.
 DeadlyBooring is a free interpretation of SlowLoris DOS.
 
+## Disclaimer:
+
+### This tool is made for Educational purpose only. Don't use it for ILLEGAL Activities. You are responsible for your Actions.
+
+
 ### *Preface*
 
 Deadly Booring DOS was purely written for educational researches. I am going to explain how you can set up a simple appache website on one of your old machines that you can use to test DeadlyBooring. Never run such an attack against IP addresses that are not under your control. Never abuse the script to harm anybody. You got your own responsibility.
