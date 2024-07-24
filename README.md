@@ -14,7 +14,7 @@ Deadly Booring DOS was purely written for educational researches. I am going to 
 
 # The Idea
 
-DeadlyBoorig DOS looks at DOS attacks from a different perspective. To understand how it works, we first need to understand internet protocols in general. What our browser is doing when we enter *<http://www.github.com>* is sending a HTTP GET Request to the IP address of the github servers (which is *192.30.253.113*, by the way) to the port 80, which is usually used to serve HTTP Requests. Such a HTTP GET request may say *"Please give me the /joelbarmettlerUZH/DeadlyBooring_DOS site"*, to which the github servers will respond with the corresponding HTML file.
+DeadlyBoorig DOS looks at DOS attacks from a different perspective. To understand how it works, we first need to understand internet protocols in general. What our browser is doing when we enter *<http://www.github.com>* is sending a HTTP GET Request to the IP address of the github servers (which is *192.30.253.113*, by the way) to the port 80, which is usually used to serve HTTP Requests. Such a HTTP GET request may say *"Please give me the /VirusZzHkP/DeadlyBooring_DOS site"*, to which the github servers will respond with the corresponding HTML file.
 
 ## HTTP GET Requests
 ---
